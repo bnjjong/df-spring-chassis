@@ -10,7 +10,7 @@ docker-compose up -d
 ```
 
 
-Nexus가 시작되면 브라우저에서 [http://localhost:8081/nexus/](http://localhost:8081/nexus/) 로 접속할 수 있습니다.
+Nexus가 시작되면 브라우저에서 [http://localhost:8081/df-repo/](http://localhost:8081/df-repo/) 로 접속할 수 있습니다.
 초기 관리자 비밀번호는 다음 명령으로 확인할 수 있습니다:
 ```shell
 docker exec -it nexus cat /nexus-data/admin.password
